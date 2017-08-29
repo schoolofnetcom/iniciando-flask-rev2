@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block main %}
+	<form method="POST" action="/form">
+		<input type="text" name="name">
+		<input type="number" name="age">
+		<button type="submit">Click</button>
+	</form>
+{% endblock %}
